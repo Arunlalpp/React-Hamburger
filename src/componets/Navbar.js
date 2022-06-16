@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
-import AboutList from "./AboutList";
-import SinglePage from "./SinglePage";
-import Header from "./Header";
 
 export default function Navbar() {
 	const [navbarOpen, setNavbarOpen] = useState(false);
@@ -23,12 +20,8 @@ export default function Navbar() {
 						/>
 					)}
 				</button>
-				<ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
-					<AboutList />
-					<SinglePage />
-				</ul>
+				<ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}></ul>
 			</nav>
-			<Header />
 		</div>
 	);
 }

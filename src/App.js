@@ -1,10 +1,11 @@
 import "./App.css";
-import Navbar from "./componets/Navbar";
+import Header from "./componets/Header";
 
 function App() {
 	return (
 		<div>
-			<Navbar />
+			{/* <Navbar /> */}
+			<Header />
 		</div>
 	);
 }
