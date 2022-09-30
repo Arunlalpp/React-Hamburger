@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 export default function display() {
-	// eslint-disable-next-line react-hooks/rules-of-hooks
 	const [show, setShow] = useState(true);
 	return (
 		<div className="App">
